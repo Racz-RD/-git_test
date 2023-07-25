@@ -1,0 +1,23 @@
+From remote repo to local and back - step by step instructions
+
+1) Create a new repository for your project on GitHub
+	- Name it, set the option private/public and add README.md
+
+2) Clone remote GitHub repo to local machine:
+	- Open Teminal and move to the parent directory on local machine
+	- Copy SSH URL linkk from remote repo
+	- Clone remote repo:
+
+`$git clone <SSH URL>`
+
+3) Move to your project folder cloned from GihHub
+`$cd <your-project-folder>
+
+4) Set up README.md and/or create other files.
+
+5) Add changes to index and commit the changes
+`$git add .` or `$git add <file-name>`
+`$git commit -m "some message"`
+
+6) Push local repo to GitHub
+`$git push origin main`
